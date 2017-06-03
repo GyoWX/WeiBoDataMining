@@ -17,24 +17,24 @@
 　　　　　2.文档示例<br>
 　　　　　　　**括号内为集合中一条记录示例**<br>
  ```
-　　　　　　　crawlerData:<br>
-　　　　　　　{<br>
-　　　　　　　　　"_id" : ObjectId("59290b0bf67345bdd477402a"),<br>
-　　　　　　　　　"keyword" : "赵丽颖",<br>
-　　　　　　　　　"username" : "碧瑶丶",<br>
-　　　　　　　　　"date" : "2017-05-03",<br>
-　　　　　　　　　"content" : "晚安，赵丽颖晚安，虫子节日快乐@赵丽颖 #赵丽颖##赵丽颖楚乔传#"<br>
+　　　　　　　crawlerData:
+　　　　　　　{
+　　　　　　　　　"_id" : ObjectId("59290b0bf67345bdd477402a"),
+　　　　　　　　　"keyword" : "赵丽颖",
+　　　　　　　　　"username" : "碧瑶丶",
+　　　　　　　　　"date" : "2017-05-03",
+　　　　　　　　　"content" : "晚安，赵丽颖晚安，虫子节日快乐@赵丽颖 #赵丽颖##赵丽颖楚乔传#"
 　　　　　　　}<br>
 ```
 
 ```
-　　　　　　　savaData<br>
-　　　　　　　{<br>
-　　　　　　　　　"_id" : ObjectId("592f803678d12435402e442d"),<br>
-　　　　　　　　　"keyword" : "赵丽颖",<br>
-　　　　　　　　　"words" : "快乐 向往 可爱 迷人 精灵 动听 幕后 花絮 忽视 ..... ",<br>
-　　　　　　　　　"date" : ISODate("2017-06-01T02:47:18.257Z")<br>
-　　　　　　　}<br>
+　　　　　　　savaData
+　　　　　　　{
+　　　　　　　　　"_id" : ObjectId("592f803678d12435402e442d"),
+　　　　　　　　　"keyword" : "赵丽颖",
+　　　　　　　　　"words" : "快乐 向往 可爱 迷人 精灵 动听 幕后 花絮 忽视 ..... ",
+　　　　　　　　　"date" : ISODate("2017-06-01T02:47:18.257Z")
+　　　　　　　}
 ```
 　　　　　　　**注意**<br>
 　　　　　　　连接mongodb，python需导入`pymongo`库，java连接需要`mongo-java-driver-3.4.2.jar`<br>
